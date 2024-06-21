@@ -1,0 +1,9 @@
+.button {
+  padding: 20px 35px;
+  margin: 2px 5px;
+  background-color: rgb(17, 139, 215);
+}
+
+.ButtonContainer {
+  width: 280px;
+}
