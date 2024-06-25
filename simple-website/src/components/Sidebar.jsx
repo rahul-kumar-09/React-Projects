@@ -45,6 +45,34 @@ const Sidebar = ({ selectedTab, setSelectedTab }) => {
               Create Post
             </a>
           </li>
+
+          <li onClick={() => setSelectedTab("Contact Us")}>
+            <a
+              href="#"
+              className={`nav-link text-white ${
+                selectedTab === "Contact Us" && "active"
+              }`}
+            >
+              <svg className="bi pe-none me-2" width="16" height="16">
+                <use xlinkHref="#speedometer2"></use>
+              </svg>
+              Contact Us
+            </a>
+          </li>
+
+          <li onClick={() => setSelectedTab("About Us")}>
+            <a
+              href="#"
+              className={`nav-link text-white ${
+                selectedTab === "About Us" && "active"
+              }`}
+            >
+              <svg className="bi pe-none me-2" width="16" height="16">
+                <use xlinkHref="#speedometer2"></use>
+              </svg>
+              About Us
+            </a>
+          </li>
         </ul>
         <hr />
         <div className="dropdown">
