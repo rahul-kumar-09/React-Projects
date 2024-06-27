@@ -1,0 +1,36 @@
+.container {
+  width: 600px;
+  margin: auto;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  margin-top: 150px;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.container button {
+  margin: auto;
+  width: 200px;
+  height: 65px;
+  background-color: rgb(107, 107, 190);
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+}
