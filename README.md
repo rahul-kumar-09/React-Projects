@@ -1,6 +1,6 @@
 # React + Vite
 
-#React Minor Project List
+<h1> React Minor Project List </h1>
 
 #How to Run ?
 step:1 download or clone this repo.
