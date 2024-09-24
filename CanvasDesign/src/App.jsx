@@ -38,7 +38,9 @@ function App() {
               </div>
 
               {imageDownloadUrl ? (
-                <a href={imageDownloadUrl}>Download</a>
+                <a href={imageDownloadUrl} download={"Painting.png"}>
+                  Download
+                </a>
               ) : (
                 <button onClick={triggerSave}>Save</button>
               )}
