@@ -1,0 +1,15 @@
+{
+  "name": "curt",
+  "version": "0.0.1",
+  "description": "Minify Javascript just enough to be readable and you can write better oneliners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "llafuente",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.0",
+    "moment": "^2.15.0"
+  }
+}
